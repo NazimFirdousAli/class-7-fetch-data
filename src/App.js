@@ -1,0 +1,13 @@
+import Fetches from './fetch.js'
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello World</h1>
+      <Fetches></Fetches>
+    </div>
+  );
+}
+
+export default App;
